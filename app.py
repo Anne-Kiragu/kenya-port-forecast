@@ -266,7 +266,7 @@ if forecast_btn:
                 plot_bgcolor="white",
                 paper_bgcolor="white",
             )
-            base_fig.update_yaxis(gridcolor="#f3f4f6")
+            base_fig.update_yaxes(gridcolor="#f3f4f6")
             st.plotly_chart(base_fig, use_container_width=True)
 
             # Ridge weights
